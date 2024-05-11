@@ -174,9 +174,10 @@ const About = () => {
               <img
                 src={incub3}
                 alt="about"
-                className="img-fluid"
-                width="800px"
-                
+                className=""
+                width="600px"
+                height="700px"
+                marginTop='100px'                
               />
             </div>
           </div>

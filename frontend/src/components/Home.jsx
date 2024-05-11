@@ -10,7 +10,7 @@ import paypal from '../assets/images/clients/paypal.svg'
 import amazon from '../assets/images/clients/amazon.svg'
 import google from '../assets/images/clients/google.svg'
 import Logo from '../assets/logo.png'
-import per from '../assets/per.png'
+import per from '../assets/incub6.png'
 import incub1 from '../assets/incub1.gif'
 //import incub2 from '../assets/incub2.gif'
 import facebook from '../assets/images/facebook (6).png'
@@ -38,8 +38,9 @@ const Home = () => {
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light foi-navbar">
           <Link className="navbar-brand" to="/Home">
-            <img src={Logo} alt="FOI" 
+            <img className='Logoo' src={Logo} alt="FOI" 
             height={50}
+          
             style={{ marginTop: "-8px", marginBottom: "-8px" }}
              />
           </Link>
@@ -152,7 +153,7 @@ const Home = () => {
             </div>
             <div className="col-md-6">
               
-              <img src={per} alt="app" width="388px" className="img-fluid">
+              <img src={per} alt="app" width="388px" className="person">
                 </img>
             </div>
           </div>

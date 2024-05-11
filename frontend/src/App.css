@@ -8905,3 +8905,11 @@ ul li:hover ul.dropdown li{
   margin-left: -3px;
   z-index: -1;
 }
+.Logoo{
+  background-color: grey;
+  border-color: darkblue;
+}
+.person{
+  width: 500px;
+  margin-left: 100px;
+}
