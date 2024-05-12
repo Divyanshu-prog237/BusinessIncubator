@@ -19,7 +19,8 @@ const Roadmap = () => {
           <div className="col-md-8">
             <div className="step-container mt-5">
               <h2 className='r-txt '>Step 1: Conduct Market Research</h2>
-              <p className='r-p'>Market research will tell you if there’s an opportunity to turn your idea into a successful business. It’s a way to gather information about potential customers and businesses already operating in your area. Use that information to find a competitive advantage for your business</p>
+              <p className='r-p'>Market research will tell you if there’s an opportunity to turn your idea into a successful business. It’s a way to gather information about potential customers and businesses already operating in your area.
+               Use that information to find a competitive advantage for your business</p>
               {/* Your basic component structure goes here */}
             </div>
           </div>

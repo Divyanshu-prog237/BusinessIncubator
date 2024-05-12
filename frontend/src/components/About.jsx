@@ -321,7 +321,7 @@ const About = () => {
             </h2>
           </div>
           <div className="col-md-4 col-lg-5 col-xl-6 py-3 py-md-0 d-md-flex align-items-center justify-content-end">
-            <Link to="/Contact" className="btn btn-danger btn-lg">
+            <Link to="/Contact2" className="btn btn-danger btn-lg">
               Contact form
             </Link>
           </div>

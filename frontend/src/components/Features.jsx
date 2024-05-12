@@ -17,7 +17,7 @@ const Features = () => {
     <meta charSet="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-    <title>FOI App Landing Page</title>
+    <title>Business Incubator</title>
     <link
       rel="stylesheet"
       href="assets/vendors/fontawesome-free/css/all.min.css"
@@ -139,10 +139,9 @@ const Features = () => {
                 alt="icon"
                 className="feature-icon"
               />
-              <h5 className="feature-title">Online Payment</h5>
+              <h5 className="feature-title">Physical Workspace</h5>
               <p className="feature-content">
-                Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do
-                eiusmod teporara incididunt ugt labore.
+              They often provide office space, meeting rooms, and sometimes laboratories or workshop areas. This gives startups a professional environment to work and collaborate.
               </p>
               <a href="#!" className="feature-link">
                 Find out More
@@ -154,10 +153,10 @@ const Features = () => {
                 alt="icon"
                 className="feature-icon"
               />
-              <h5 className="feature-title">Online Payment</h5>
+              <h5 className="feature-title">Infrastructure and Utilities</h5>
               <p className="feature-content">
-                Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do
-                eiusmod teporara incididunt ugt labore.
+              Facilities like internet connectivity, electricity, water, heating/cooling systems,
+               and office equipment are usually provided.
               </p>
               <a href="#!" className="feature-link">
                 Find out More
@@ -181,10 +180,10 @@ const Features = () => {
           </div>
           <div className="row pt-5">
             <div className="col-md-4 foi-feature">
-              <h5 className="feature-title">Secure Data</h5>
+              <h5 className="feature-title">Business Support Services</h5>
               <p className="feature-content">
-                Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do
-                eiusmod teporara incididunt ugt labore.
+              This includes assistance with business planning, market research, financial
+               modeling, and access to legal and accounting services.
               </p>
               <a href="#!" className="feature-link">
                 Find out More
@@ -370,7 +369,7 @@ const Features = () => {
             </h2>
           </div>
           <div className="col-md-4 col-lg-5 col-xl-6 py-3 py-md-0 d-md-flex align-items-center justify-content-end">
-            <Link to="/Contact" className="btn btn-danger btn-lg">
+            <Link to="/Contact2" className="btn btn-danger btn-lg">
               Contact form
             </Link>
           </div>

@@ -114,7 +114,7 @@ const Home = () => {
             </ul>
             <ul className="navbar-nav mt-2 mt-lg-0">
               <li className="nav-item mr-2 mb-3 mb-lg-0">
-                <Link className="btn btn-secondary" to="/Register">
+                <Link className="btn btn-secondary" to="/Signup">
                   Sign up
                 </Link>
               </li>
@@ -749,7 +749,7 @@ const Home = () => {
             </h2>
           </div>
           <div className="col-md-4 col-lg-5 col-xl-6 py-3 py-md-0 d-md-flex align-items-center justify-content-end">
-            <Link to="/Contact" className="btn btn-danger btn-lg">
+            <Link to="/Contact2" className="btn btn-danger btn-lg">
               Contact form
             </Link>
           </div>

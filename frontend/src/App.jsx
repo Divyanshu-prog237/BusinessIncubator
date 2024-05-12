@@ -33,6 +33,7 @@ import UpdateService from './components/UpdateService'
 import EnquiryData from './components/EnquiryData'
 import UserProfile from './components/UserProfile'
 import Features from './components/Features'
+import Roadmap1 from './components/Roadmap1'
 // import Chat from './components/Chat'
 // import ExpertChat from './components/ExpertCaht'
 // import UserChat from './components/UserChat'
@@ -53,6 +54,7 @@ const App = () => {
               <Route path='/Signup' element={<Signup />} />
               <Route path='/Login' element={<Login />} />
               <Route path='/Features' element={<Features/>} />
+             
 
               <Route path='/PlanningServices' element={<PlanningServices />} />
               <Route path='/LaunchingServices' element={<LaunchingServices />} />
@@ -63,6 +65,7 @@ const App = () => {
               <Route path='/Contact2' element={<Contact2 />} />
               <Route path='/About' element={<About/>} />
               <Route path='/view/:id' element={<ViewService />} />
+              <Route path='/Roadmap1' element={<Roadmap1/>} />
               
               <Route path='/UserProfile' element={<UserAuth><UserProfile /></UserAuth>}/>
               {/* <Route path='/Chat' element={<Chat />} /> */}
