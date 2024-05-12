@@ -66,6 +66,8 @@ const App = () => {
               <Route path='/About' element={<About/>} />
               <Route path='/view/:id' element={<ViewService />} />
               <Route path='/Roadmap1' element={<Roadmap1/>} />
+            {/*update service kaise hogi route bana nhi h banana h kya ki admin me banana h 
+            view service kaise hogi , update service kaise hogi,*/}
             {/*  <Route path='/UpdateService' element={<UpdateService/>}/>*/}
            {/* <Route path='/ViewService' element={<ViewService/>} />*/}
               
