@@ -138,7 +138,7 @@ const Home = () => {
                 success. Explore our comprehensive services and turn your dreams
                 into reality.
               </p>
-              <button className="btn btn-primary mb-4">Get Started</button>
+              <Link className="btn btn-primary mb-4" to="/Roadmap">Get Started</Link>
               <div className="my-2">
                 <p className="header-app-download-title">GET OUR MOBILE APP</p>
               </div>

@@ -159,7 +159,7 @@ const Contact2 = () => {
             <div className="card-shadow">
                 <div className="row">
                     <div className="col-md-6 d-flex justify-content-center p-5">
-                        <h1 className='position-absolute display-5 text-danger' style={{ fontFamily: "fantasy" }}>Query ? Connect with us</h1>
+                        <h1 className=' position-absolute display-5 text-danger' style={{ fontFamily: "fantasy", marginTop:"-70px" }}>Query ? Connect with us</h1>
                         <form onSubmit={contactForm.handleSubmit}>
                             <div className="row">
                                 <div className="col-md-6 c-margin">

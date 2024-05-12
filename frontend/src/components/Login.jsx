@@ -150,7 +150,7 @@ const Login = () => {
             </ul>
             <ul className="navbar-nav mt-2 mt-lg-0">
               <li className="nav-item mr-2 mb-3 mb-lg-0">
-                <Link className="btn btn-secondary" to="/Register">
+                <Link className="btn btn-secondary" to="/Signup">
                   Sign up
                 </Link>
               </li>
@@ -172,9 +172,10 @@ const Login = () => {
                             alt="Sample image"
                         />
                     </div>
+
                     <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
                         <form onSubmit={loginForm.handleSubmit}>
-                            
+                        <h1 className=' display-5 text-danger'  style={{ fontFamily: "fantasy", marginLeft: "20px", marginBottom: "15px"}}>Welcome Back</h1>
                             {/* Email input */}
                             <div className="form-outline mb-4">
                                 <input

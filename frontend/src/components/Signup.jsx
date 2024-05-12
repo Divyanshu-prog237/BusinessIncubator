@@ -174,7 +174,8 @@ const Signup = () => {
                                 }}
                             >
                                 <div className="card-body p-5 shadow-5 text-center">
-                                    <h2 className="fw-bold mb-5">Sign Up Now</h2>
+                                <h1 className=' display-5 text-danger'  style={{ fontFamily: "fantasy", marginLeft: "20px", marginBottom: "30px"}}>SignUp Now</h1>
+
                                     <form onSubmit={SignupForm.handleSubmit}>
                                         {/* 2 column grid layout with text inputs for the first and last names */}
                                         <div className="row">

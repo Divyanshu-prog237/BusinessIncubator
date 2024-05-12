@@ -15,9 +15,10 @@ import ios from '../assets/images/ios.svg'
 
 const Services = () => {
   return (
-    <div><nav className="navbar navbar-expand-lg navbar-light foi-navbar">
+    <div>
+      <nav className="navbar navbar-expand-lg navbar-light foi-navbar">
     <Link className="navbar-brand" to="/Home">
-      <img src={Logo} alt="FOI" 
+      <img src={Logo} alt="incubator" 
       height={50}
       style={{ marginTop: "-8px", marginBottom: "-8px" }}
        />

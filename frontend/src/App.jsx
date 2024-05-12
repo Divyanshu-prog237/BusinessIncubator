@@ -66,6 +66,8 @@ const App = () => {
               <Route path='/About' element={<About/>} />
               <Route path='/view/:id' element={<ViewService />} />
               <Route path='/Roadmap1' element={<Roadmap1/>} />
+            {/*  <Route path='/UpdateService' element={<UpdateService/>}/>*/}
+           {/* <Route path='/ViewService' element={<ViewService/>} />*/}
               
               <Route path='/UserProfile' element={<UserAuth><UserProfile /></UserAuth>}/>
               {/* <Route path='/Chat' element={<Chat />} /> */}
