@@ -8,7 +8,8 @@ import youtube from '../assets/images/youtube.png'
 import Logo from '../assets/logo.png'
 import ios from '../assets/images/ios.svg'
 //Footer END
-
+import incub7 from '../assets/incub7.jpg'
+import incub8 from '../assets/incub8.jpeg'
 
 const Features = () => {
   return (
@@ -75,7 +76,7 @@ const Features = () => {
                   <Link className="dropdown-item" to="/Login">
                     Login
                   </Link>
-                  <Link className="dropdown-item" to="/SIgnUp">
+                  <Link className="dropdown-item" to="/SignUp">
                     Register
                   </Link>
                   <Link className="dropdown-item"  to="/Faq">
@@ -123,7 +124,7 @@ const Features = () => {
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb foi-breadcrumb">
               <li className="breadcrumb-item">
-                <a href="index.html">Home</a>
+                <Link to="/Home">Home</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 About
@@ -135,9 +136,9 @@ const Features = () => {
           <div className="row mb-5">
             <div className="col-md-4 foi-feature">
               <img
-                src="assets/images/icon_1.png"
+                src={incub7}
                 alt="icon"
-                className="feature-icon"
+                className="feature-icon1"
               />
               <h5 className="feature-title">Physical Workspace</h5>
               <p className="feature-content">
@@ -149,9 +150,9 @@ const Features = () => {
             </div>
             <div className="col-md-4 foi-feature">
               <img
-                src="assets/images/icon_2.png"
+                src={incub8}
                 alt="icon"
-                className="feature-icon"
+                className="feature-icon1"
               />
               <h5 className="feature-title">Infrastructure and Utilities</h5>
               <p className="feature-content">
@@ -164,14 +165,14 @@ const Features = () => {
             </div>
             <div className="col-md-4 foi-feature">
               <img
-                src="assets/images/icon_3.png"
+                src={incub7}
                 alt="icon"
-                className="feature-icon"
+                className="feature-icon1"
               />
-              <h5 className="feature-title">Online Payment</h5>
+              <h5 className="feature-title">Mentorship and Coaching</h5>
               <p className="feature-content">
-                Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do
-                eiusmod teporara incididunt ugt labore.
+              They provide access to experienced mentors and coaches 
+              who offer guidance on various aspects of business development, strategy, and management.
               </p>
               <a href="#!" className="feature-link">
                 Find out More
@@ -190,50 +191,50 @@ const Features = () => {
               </a>
             </div>
             <div className="col-md-4 foi-feature">
-              <h5 className="feature-title">Live Chat</h5>
+              <h5 className="feature-title">Legal and Regulatory Guidance</h5>
               <p className="feature-content">
-                Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do
-                eiusmod teporara incididunt ugt labore.
+              They provide guidance on legal and regulatory compliance, business structuring, contracts,
+               licensing, permits, and other legal matters relevant to startups.
               </p>
               <a href="#!" className="feature-link">
                 Find out More
               </a>
             </div>
             <div className="col-md-4 foi-feature">
-              <h5 className="feature-title">Equilizer Support</h5>
+              <h5 className="feature-title">Networking Opportunities</h5>
               <p className="feature-content">
-                Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do
-                eiusmod teporara incididunt ugt labore.
+              Incubators facilitate networking events, workshops, seminars, and conferences where startups
+               can meet mentors, investors, industry experts, and other entrepreneurs. 
               </p>
               <a href="#!" className="feature-link">
                 Find out More
               </a>
             </div>
             <div className="col-md-4 foi-feature">
-              <h5 className="feature-title">Fully functional</h5>
+              <h5 className="feature-title">Technology and Innovation Support</h5>
               <p className="feature-content">
-                Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do
-                eiusmod teporara incididunt ugt labore.
+              For startups working on tech-based products or services, incubators
+               may offer access to specialized equipment, software, research facilities, and technical expertise.
               </p>
               <a href="#!" className="feature-link">
                 Find out More
               </a>
             </div>
             <div className="col-md-4 foi-feature">
-              <h5 className="feature-title">Powerful dashboard</h5>
+              <h5 className="feature-title">Access to Corporate Partnerships</h5>
               <p className="feature-content">
-                Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do
-                eiusmod teporara incididunt ugt labore.
+              Some incubators have partnerships with established corporations, allowing startups to collaborate on 
+              projects, access corporate resources, and explore business development opportunities.
               </p>
               <a href="#!" className="feature-link">
                 Find out More
               </a>
             </div>
             <div className="col-md-4 foi-feature">
-              <h5 className="feature-title">Unlimited Features</h5>
+              <h5 className="feature-title">Community and Collaboration</h5>
               <p className="feature-content">
-                Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do
-                eiusmod teporara incididunt ugt labore.
+              Being part of an incubator often means being part of a community of like-minded entrepreneurs.
+               This environment fosters collaboration, knowledge sharing, and mutual support among startups.
               </p>
               <a href="#!" className="feature-link">
                 Find out More

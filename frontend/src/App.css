@@ -9058,3 +9058,11 @@ ul li:hover ul.dropdown li{
   border-right: 15px solid #fff;
   left: -15px;
 }
+.feature-icon1{
+  width: 250px;
+  height: 200px;
+  margin-top: -100px;
+  border-color: skyblue;
+  margin-bottom: 10px;
+  border-top-left-radius: 150px;
+}
