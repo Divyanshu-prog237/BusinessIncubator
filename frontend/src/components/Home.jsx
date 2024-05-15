@@ -492,7 +492,7 @@ const Home = () => {
                     </div>
                 
             </section>
-    <section className="py-5 mb-5">
+    {/* <section className="py-5 mb-5">
       <div className="container">
         <h2>Satisfied Users</h2>
         <p className="text-muted mb-5">
@@ -577,7 +577,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
     <section className="py-5 mb-5">
       <div className="container">
         <h2>FAQ</h2>
