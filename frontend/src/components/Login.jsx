@@ -74,8 +74,8 @@ const Login = () => {
     <div>
 
       <nav className="navbar navbar-expand-lg navbar-light foi-navbar">
-        <Link className="navbar-brand" to="/Home">
-          <img src={Logo} alt="FOI"
+        <Link className="navbar-brand" to="/Admin/base">
+          <img className='Logoo' src={Logo} alt="FOI"
             height={50}
             style={{ marginTop: "-8px", marginBottom: "-8px" }}
           />
@@ -103,40 +103,7 @@ const Login = () => {
                 About
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/Features">
-                Features
-              </Link>
-            </li>
-            <li className="nav-item dropdown">
-              <Link
-                className="nav-link dropdown-toggle"
-                to="/Pages"
-
-              >
-                Pages
-              </Link>
-              <div className="dropdown-menu" aria-labelledby="pagesMenu">
-                <Link className="dropdown-item" href="blog.html">
-                  Blog
-                </Link>
-                <Link className="dropdown-item" to="/login">
-                  Login
-                </Link>
-                <Link className="dropdown-item" to="/Register">
-                  Register
-                </Link>
-                <Link className="dropdown-item" to="/Faq">
-                  FAQ
-                </Link>
-                <Link className="dropdown-item" to="/Blog">
-                  Single blog
-                </Link>
-                <Link className="dropdown-item" to="/Privacypolicy">
-                  Privacy policy
-                </Link>
-              </div>
-            </li>
+           
             <li className="nav-item">
               <Link className="nav-link" to="/Contact2">
                 Contact
@@ -189,7 +156,7 @@ const Login = () => {
                   <label className="form-label" htmlFor="form3Example3">
                     Email address
                   </label>
-                  <span style={{ color: 'red', fontsize: '10', marginLeft: 10 }}>{loginForm.touched.name && loginForm.errors.name}</span>
+                  <span style={{ color: 'red', fontsize: '10', marginLeft: 10 }}>{loginForm.touched.email && loginForm.errors.email}</span>
                 </div>
                 {/* Password input */}
                 <div className="form-outline mb-3">
@@ -204,6 +171,7 @@ const Login = () => {
                   <label className="form-label" htmlFor="form3Example4">
                     Password
                   </label>
+                  <span style={{color: 'red', fontSize:'10'}}>{loginForm.touched.password && loginForm.errors.password}</span>
                 </div>
                 <div className="d-flex justify-content-between align-items-center">
                   {/* Checkbox */}

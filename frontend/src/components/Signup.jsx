@@ -16,8 +16,23 @@ import ios from '../assets/images/ios.svg'
 
 
 const SignupSchema = Yup.object().shape({
-    email: Yup.string().email('Invalid email').required('Required'),
-    password: Yup.string().min(4, 'Too short!').max(20, 'Too Long!').required('Required'),
+  fname: Yup.string()
+  .min(2, 'Too Short!')
+  .max(10, 'Too Long!')
+  .required('Required'),
+lname: Yup.string()
+  .min(2, 'Too Short!')
+  .max(10, 'Too Long!')
+  .required('Required'),
+
+email: Yup.string().email('Invalid email').required('Required'),
+password: Yup
+  .string()
+  .required('Please Enter your password')
+  .matches(
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/,
+      "Must Contain 8 Characters, One Uppercase, One Lowercase, One Number and One Special Case Character"
+  )
 })
 
 const Signup = () => {
@@ -69,7 +84,7 @@ const Signup = () => {
 
     return (
         <><nav className="navbar navbar-expand-lg navbar-light foi-navbar">
-        <Link className="navbar-brand" to="/Home">
+        <Link className="navbar-brand" to="/Admin/base">
           <img src={Logo} alt="FOI" 
           height={50}
           style={{ marginTop: "-8px", marginBottom: "-8px" }}
@@ -98,12 +113,12 @@ const Signup = () => {
                 About
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/Features">
                 Features
               </Link>
-            </li>
-            <li className="nav-item dropdown">
+            </li> */}
+            {/* <li className="nav-item dropdown">
               <Link
                 className="nav-link dropdown-toggle"
                 to="/Pages"
@@ -131,7 +146,7 @@ const Signup = () => {
                   Privacy policy
                 </Link>
               </div>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link className="nav-link" to ="/Contact2">
                 Contact
@@ -187,6 +202,7 @@ const Signup = () => {
                                                     <label className="form-label fw-bold" htmlFor="form3Example1">
                                                         First name
                                                     </label>
+                                                    <span style={{color: 'red', fontSize:'10'}}>{SignupForm.touched.fname && SignupForm.errors.fname}</span>
                                                     <input
                                                         type="text"
                                                         id="fname"
@@ -201,6 +217,7 @@ const Signup = () => {
                                                     <label className="form-label fw-bold" htmlFor="form3Example2">
                                                         Last name
                                                     </label>
+                                                    <span style={{color: 'red', fontSize:'10'}}>{SignupForm.touched.lname && SignupForm.errors.lname}</span>
                                                     <input
                                                         type="text"
                                                         id="lname"
@@ -216,6 +233,7 @@ const Signup = () => {
                                             <label className="form-label fw-bold" htmlFor="form3Example3">
                                                 Email address
                                             </label>
+                                            <span style={{color: 'red', fontSize:'10'}}>{SignupForm.touched.email && SignupForm.errors.email}</span>
                                             <input
                                                 type="email"
                                                 id="email"
@@ -229,6 +247,7 @@ const Signup = () => {
                                             <label className="form-label" htmlFor="form3Example4">
                                                 Password
                                             </label>
+                                            
                                             <input
                                                 type="password"
                                                 id="password"
@@ -236,6 +255,7 @@ const Signup = () => {
                                                 value={SignupForm.values.password}
                                                 className="form-control"
                                             />
+                                            <span style={{color: 'red', fontSize:'8'}}>{SignupForm.touched.password && SignupForm.errors.password}</span>
                                         </div>
                                         {/* Checkbox */}
                                         

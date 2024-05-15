@@ -32,7 +32,7 @@ import Umanage from './components/Umanage'
 import UpdateService from './components/UpdateService'
 import EnquiryData from './components/EnquiryData'
 import UserProfile from './components/UserProfile'
-import Features from './components/Features'
+// import Features from './components/Features'
 import Roadmap1 from './components/Roadmap1'
 import Forgotpassword from './components/Forgotpassword'
 // import Chat from './components/Chat'
@@ -54,7 +54,7 @@ const App = () => {
               <Route path='/services' element={<Services />} />
               <Route path='/Signup' element={<Signup />} />
               <Route path='/Login' element={<Login />} />
-              <Route path='/Features' element={<Features/>} />
+              {/* <Route path='/Features' element={<Features/>} /> */}
              
 
               <Route path='/PlanningServices' element={<PlanningServices />} />

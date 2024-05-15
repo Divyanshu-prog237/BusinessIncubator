@@ -70,7 +70,7 @@ const Contact2 = () => {
       <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light foi-navbar">
         <Link className="navbar-brand" to="/Home">
-          <img src={Logo} alt="FOI" 
+          <img className='Logoo' src={Logo} alt="FOI" 
           height={50}
           style={{ marginTop: "-8px", marginBottom: "-8px" }}
            />
@@ -98,40 +98,7 @@ const Contact2 = () => {
                 About
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/Features">
-                Features
-              </Link>
-            </li>
-            <li className="nav-item dropdown">
-              <Link
-                className="nav-link dropdown-toggle"
-                to="/Pages"
-
-              >
-                Pages
-              </Link>
-              <div className="dropdown-menu" aria-labelledby="pagesMenu">
-                <Link className="dropdown-item" href="blog.html">
-                  Blog
-                </Link>
-                <Link className="dropdown-item" to="/Login">
-                  Login
-                </Link>
-                <Link className="dropdown-item" to="/SignUp">
-                  Register
-                </Link>
-                <Link className="dropdown-item"  to="/Faq">
-                  FAQ
-                </Link>
-                <Link className="dropdown-item" to="/Blog">
-                  Single blog
-                </Link>
-                <Link className="dropdown-item" to="/Privacypolicy">
-                  Privacy policy
-                </Link>
-              </div>
-            </li>
+          
             <li className="nav-item">
               <Link className="nav-link" to ="/Contact2">
                 Contact
@@ -208,7 +175,7 @@ const Contact2 = () => {
                 </div>
             </div>
         </div>
-        <footer className="foi-footer text-white">
+        {/* <footer className="foi-footer text-white">
       <div className="container">
         <div className="row footer-content">
           <div className="col-xl-6 col-lg-7 col-md-8">
@@ -336,7 +303,7 @@ const Contact2 = () => {
           </div>
         </div>
       </div>
-    </footer>
+    </footer> */}
         </div>
     )
 }

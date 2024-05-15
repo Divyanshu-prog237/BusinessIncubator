@@ -64,40 +64,7 @@ const About = () => {
                   About
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/Features">
-                  Features
-                </Link>
-              </li>
-              <li className="nav-item dropdown">
-                <Link
-                  className="nav-link dropdown-toggle"
-                  to="/Pages"
-
-                >
-                  Pages
-                </Link>
-                <div className="dropdown-menu" aria-labelledby="pagesMenu">
-                  <Link className="dropdown-item" href="blog.html">
-                    Blog
-                  </Link>
-                  <Link className="dropdown-item" to="/Login">
-                    Login
-                  </Link>
-                  <Link className="dropdown-item" to="/SIgnUp">
-                    Register
-                  </Link>
-                  <Link className="dropdown-item"  to="/Faq">
-                    FAQ
-                  </Link>
-                  <Link className="dropdown-item" to="/Blog">
-                    Single blog
-                  </Link>
-                  <Link className="dropdown-item" to="/Privacypolicy">
-                    Privacy policy
-                  </Link>
-                </div>
-              </li>
+              
               <li className="nav-item">
                 <Link className="nav-link" to ="/Contact2">
                   Contact
@@ -129,7 +96,7 @@ const About = () => {
       <div className="container">
         <section className="page-header">
           <h1>About</h1>
-          <nav aria-label="breadcrumb">
+          {/* <nav aria-label="breadcrumb">
             <ol className="breadcrumb foi-breadcrumb">
               <li className="breadcrumb-item">
                 <Link to="/Home">Home</Link>
@@ -138,7 +105,7 @@ const About = () => {
                 About
               </li>
             </ol>
-          </nav>
+          </nav> */}
         </section>
         <section className="foi-page-section pt-0">
           <div className="row">

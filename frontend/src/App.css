@@ -8897,7 +8897,9 @@ html {
   z-index: -1;
 }
 .Logoo{
-  background-color: grey;
+  background-color: blueviolet;
+  border-radius: 5px;
+  padding: 3px;
   border-color: darkblue;
 }
 .person{

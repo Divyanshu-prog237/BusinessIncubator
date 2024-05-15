@@ -37,7 +37,7 @@ const Home = () => {
     <header className="foi-header landing-header">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light foi-navbar">
-          <Link className="navbar-brand" to="/Home">
+          <Link className="navbar-brand" to="/Admin/base">
             <img className='Logoo' src={Logo} alt="FOI" 
             height={50}
           
@@ -67,12 +67,12 @@ const Home = () => {
                   About
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/Features">
                   Features
                 </Link>
-              </li>
-              <li className="nav-item dropdown">
+              </li> */}
+              {/* <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
                   to="/Pages"
@@ -100,7 +100,7 @@ const Home = () => {
                     Privacy policy
                   </Link>
                 </div>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to ="/Contact2">
                   Contact

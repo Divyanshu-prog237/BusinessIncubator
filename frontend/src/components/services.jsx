@@ -18,7 +18,7 @@ const Services = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light foi-navbar">
     <Link className="navbar-brand" to="/Home">
-      <img src={Logo} alt="incubator" 
+      <img className='Logoo' src={Logo} alt="incubator" 
       height={50}
       style={{ marginTop: "-8px", marginBottom: "-8px" }}
        />
@@ -46,40 +46,7 @@ const Services = () => {
             About
           </Link>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/Features">
-            Features
-          </Link>
-        </li>
-        <li className="nav-item dropdown">
-          <Link
-            className="nav-link dropdown-toggle"
-            to="/Pages"
-
-          >
-            Pages
-          </Link>
-          <div className="dropdown-menu" aria-labelledby="pagesMenu">
-            <Link className="dropdown-item" href="blog.html">
-              Blog
-            </Link>
-            <Link className="dropdown-item" to="/Login">
-              Login
-            </Link>
-            <Link className="dropdown-item" to="/Signup">
-              Register
-            </Link>
-            <Link className="dropdown-item"  to="/Faq">
-              FAQ
-            </Link>
-            <Link className="dropdown-item" to="/Blog">
-              Single blog
-            </Link>
-            <Link className="dropdown-item" to="/Privacypolicy">
-              Privacy policy
-            </Link>
-          </div>
-        </li>
+        
         <li className="nav-item">
           <Link className="nav-link" to ="/Contact2">
             Contact
