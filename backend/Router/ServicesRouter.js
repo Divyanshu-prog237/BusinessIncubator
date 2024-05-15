@@ -36,12 +36,12 @@ router.get('/getbyid/:id', (req, res) => {
         res.status(500).json(err)
     }); 
 });
-router.get('/getbyscategory/:managing', (req, res) => {
+router.get('/getbyscategory/:scategory', (req, res) => {
     // getting data from client
     console.log(req.params.id);
 
     // finding the data with given id
-    Model.find({scategory: req.params.planning})
+    Model.find({scategory: req.params.scategory})
     .then((result) => {
         res.json(result)
     }).catch((err) => {
