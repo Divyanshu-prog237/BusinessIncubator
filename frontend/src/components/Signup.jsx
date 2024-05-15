@@ -13,6 +13,8 @@ import youtube from '../assets/images/youtube.png'
 
 import ios from '../assets/images/ios.svg'
 //Footer END
+
+
 const SignupSchema = Yup.object().shape({
     email: Yup.string().email('Invalid email').required('Required'),
     password: Yup.string().min(4, 'Too short!').max(20, 'Too Long!').required('Required'),
@@ -63,6 +65,7 @@ const Signup = () => {
         },
         validationSchema: SignupSchema,
     });
+    
 
     return (
         <><nav className="navbar navbar-expand-lg navbar-light foi-navbar">
