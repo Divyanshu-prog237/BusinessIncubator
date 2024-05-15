@@ -132,7 +132,7 @@ const About = () => {
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb foi-breadcrumb">
               <li className="breadcrumb-item">
-                <a href="index.html">Home</a>
+                <Link to="/Home">Home</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 About

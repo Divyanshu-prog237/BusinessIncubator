@@ -66,7 +66,9 @@ const Contact2 = () => {
     });
 
     return (
-        <div><nav className="navbar navbar-expand-lg navbar-light foi-navbar">
+     
+      <div className="container">
+          <nav className="navbar navbar-expand-lg navbar-light foi-navbar">
         <Link className="navbar-brand" to="/Home">
           <img src={Logo} alt="FOI" 
           height={50}

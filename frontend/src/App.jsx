@@ -34,6 +34,7 @@ import EnquiryData from './components/EnquiryData'
 import UserProfile from './components/UserProfile'
 import Features from './components/Features'
 import Roadmap1 from './components/Roadmap1'
+import Forgotpassword from './components/Forgotpassword'
 // import Chat from './components/Chat'
 // import ExpertChat from './components/ExpertCaht'
 // import UserChat from './components/UserChat'
@@ -58,18 +59,17 @@ const App = () => {
 
               <Route path='/PlanningServices' element={<PlanningServices />} />
               <Route path='/LaunchingServices' element={<LaunchingServices />} />
+              <Route path='/Forgotpassword' element={<Forgotpassword/>} />
               <Route path='/ManagingServices' element={<ManagingServices />} />
-              <Route path='/AddServices' element={<AdminAuth><AddServices /> </AdminAuth>} />
+           
               <Route path='/UpdateService/:id' element={<AdminAuth><UpdateService /></AdminAuth>} />
               <Route path='/Roadmap' element={<Roadmap />} />
               <Route path='/Contact2' element={<Contact2 />} />
               <Route path='/About' element={<About/>} />
               <Route path='/view/:id' element={<ViewService />} />
               <Route path='/Roadmap1' element={<Roadmap1/>} />
-            {/*update service kaise hogi route bana nhi h banana h kya ki admin me banana h 
-            view service kaise hogi , update service kaise hogi,*/}
-            {/*  <Route path='/UpdateService' element={<UpdateService/>}/>*/}
-           {/* <Route path='/ViewService' element={<ViewService/>} />*/}
+              
+       
               
               <Route path='/UserProfile' element={<UserAuth><UserProfile /></UserAuth>}/>
               {/* <Route path='/Chat' element={<Chat />} /> */}
@@ -83,7 +83,7 @@ const App = () => {
                 <Route path='Base' element={<Base />} />
                 <Route path='Umanage' element={<Umanage />} />
                 <Route path='EnquiryData' element={<EnquiryData />} />
-              
+                <Route path='AddServices' element={<AddServices />} />
                 
                 
                 {/* <Route path='Sidebar' element={<Sidebar />} /> */}
