@@ -47,7 +47,7 @@ const ManagingServices = () => {
               <div className="col-md-8">
                 <h3 style={{ paddingLeft: "20px" }} className="mt-3 text-light">{service.sname}</h3>
                 <p style={{ paddingLeft: "20px" }} className="text-light">{service.sdescription}</p>
-                <Link to={'/view/' + service._id} className="btn btn-outline-primary m-2">Know More</Link>
+                <Link to={'/view/' + service._id} className="btn btn-outline-light mx-4">Know More</Link>
               </div>
             </div>
           </div>

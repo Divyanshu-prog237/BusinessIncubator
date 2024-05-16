@@ -57,10 +57,10 @@ const App = () => {
               {/* <Route path='/Features' element={<Features/>} /> */}
              
 
-              <Route path='/PlanningServices' element={<PlanningServices />} />
-              <Route path='/LaunchingServices' element={<LaunchingServices />} />
+              <Route path='/PlanningServices' element={<UserAuth><PlanningServices /></UserAuth>} />
+              <Route path='/LaunchingServices' element={<UserAuth><LaunchingServices /></UserAuth>} />
               <Route path='/Forgotpassword' element={<Forgotpassword/>} />
-              <Route path='/ManagingServices' element={<ManagingServices />} />
+              <Route path='/ManagingServices' element={<UserAuth><ManagingServices /></UserAuth>} />
            
               <Route path='/UpdateService/:id' element={<AdminAuth><UpdateService /></AdminAuth>} />
               <Route path='/Roadmap' element={<Roadmap />} />

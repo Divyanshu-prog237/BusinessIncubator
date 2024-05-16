@@ -12,6 +12,7 @@ import google from '../assets/images/clients/google.svg'
 import Logo from '../assets/logo.png'
 import per from '../assets/incub6.png'
 import incub1 from '../assets/incub1.gif'
+import features from '../assets/incub3.gif'
 //import incub2 from '../assets/incub2.gif'
 import facebook from '../assets/images/facebook (6).png'
 import instagram from '../assets/images/instagram.png'
@@ -162,209 +163,38 @@ const Home = () => {
     </header>
     <section className="py-5 mb-5">
       <div className="container">
-        <h2 className="section-title">Our Features</h2>
+        <h2 className="section-title" style={{marginLeft:"140px",marginBottom:"60px"}}>Our Features</h2>
         <div className="row">
-          <div className="col-lg-4 mb-4 mb-lg-0">
+          <div className="col-lg-4 mb-4 mb-lg-0" style={{marginLeft:"-50px"}}>
             <h5>Mentorship</h5>
             <p className="text-dark">
               Incubators offer guidance, enhancing entrepreneurs' skills for
               startup success.
             </p>
-            <p className="mb-5">
-              <a href="#!" className="text-primary mb-5">
-                Find out More
-              </a>
-            </p>
+           
             <h5>Networking</h5>
             <p className="text-dark">
               Facilitate connections among entrepreneurs, investors, and experts.
             </p>
-            <p className="mb-5">
-              <a href="#!" className="text-primary mb-5">
-                Find out More
-              </a>
-            </p>
+            
           </div>
-          <div className="col-lg-4 mb-3 mb-lg-0">
+          <div className="col-lg-4 mb-3 mb-lg-0" style={{marginLeft:"-50px"}}>
             <h5>Live Chat</h5>
             <p className="text-dark">
               No matter what kind of home you have to share, you can increase your
               earnings.
             </p>
-            <p className="mb-5">
-              <a href="#!" className="text-primary mb-5">
-                Find out More
-              </a>
-            </p>
+            
             <h5>Infrastructure support</h5>
             <p className="text-dark">
               Provide essential resources, like office space and technology,
               reducing operational costs for startups.
             </p>
-            <p className="mb-5">
-              <a href="#!" className="text-primary mb-5">
-                Find out More
-              </a>
-            </p>
+            
           </div>
           <div className="col-lg-4">
-            <h6 className="text-gray font-os font-weight-semibold">
-              Trusted by the world's best
-            </h6>
-            <div
-              id="landingClientCarousel"
-              className="carousel slide landing-client-carousel"
-              data-ride="carousel"
-            >
-              <div className="carousel-inner" role="listbox">
-                <div className="carousel-item active">
-                  <div className="d-flex flex-wrap justify-content-center">
-                    <div className="clients-logo">
-                      <img
-                        src={slack}
-                        alt="Slack"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src={spotify}
-                        alt="Spotify"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src={paypal}
-                        alt="Paypal"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src={amazon}
-                        alt="Amazon"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src={google}
-                        alt="Google"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/samsung.svg"
-                        alt="Samsung"
-                        className="img-fluid"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="d-flex flex-wrap justify-content-center">
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/slack.svg"
-                        alt="Slack"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/spotify.svg"
-                        alt="Spotify"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/paypal.svg"
-                        alt="Paypal"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/amazon.svg"
-                        alt="Amazon"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/google.svg"
-                        alt="Google"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/samsung.svg"
-                        alt="Samsung"
-                        className="img-fluid"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="d-flex flex-wrap justify-content-center">
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/slack.svg"
-                        alt="Slack"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/spotify.svg"
-                        alt="Spotify"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/paypal.svg"
-                        alt="Paypal"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/amazon.svg"
-                        alt="Amazon"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/google.svg"
-                        alt="Google"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="clients-logo">
-                      <img
-                        src="assets/images/clients/samsung.svg"
-                        alt="Samsung"
-                        className="img-fluid"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <ol className="carousel-indicators">
-                <li
-                  data-target="#landingClientCarousel"
-                  data-slide-to={0}
-                  className="active"
-                />
-                <li data-target="#landingClientCarousel" data-slide-to={1} />
-                <li data-target="#landingClientCarousel" data-slide-to={2} />
-              </ol>
+            <div>
+              <img src={features} style={{width:"500px",marginTop:"-100px",marginLeft:"30px"}} alt="" />
             </div>
           </div>
         </div>
