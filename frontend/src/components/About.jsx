@@ -36,7 +36,7 @@ const About = () => {
       <div className="container">
       <nav className="navbar navbar-expand-lg navbar-light foi-navbar">
           <Link className="navbar-brand" to="/Home">
-            <img src={Logo} alt="FOI" 
+            <img className='Logoo' src={Logo} alt="FOI" 
             height={50}
             style={{ marginTop: "-8px", marginBottom: "-8px" }}
              />
