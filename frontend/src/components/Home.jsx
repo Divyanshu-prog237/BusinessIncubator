@@ -114,6 +114,11 @@ const Home = () => {
                     Services
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/Website">
+                    Website Development
+                  </Link>
+                </li>
               </ul>
               <ul className="navbar-nav mt-2 mt-lg-0">
                 <li className="nav-item mr-2 mb-3 mb-lg-0">
@@ -126,6 +131,7 @@ const Home = () => {
                     Login
                   </Link>
                 </li>
+          
               </ul>
             </div>
           </nav>
@@ -162,9 +168,9 @@ const Home = () => {
           <p className='mt-5 c-para'>Empower Your Startup Journey! We're here to guide you from idea to success. Explore our comprehensive services and turn your dreams into reality.</p>
         </div>
         {/* </Fade> */}
-      </section>
+      </section> 
 
-      <section className="py-5 mb-5">
+      {/*<section className="py-5 mb-5">
         <div className="container">
           <h2 className="section-title" style={{ marginLeft: "140px", marginBottom: "60px" }}>Our Features</h2>
           <div className="row">
@@ -202,8 +208,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="py-5 mb-5">
+      </section>*/}
+     {/* <section className="py-5 mb-5">
         <div className="container">
           <div className="row">
             <div className="col-md-6 mb-5 mb-md-0">
@@ -266,7 +272,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+    </section>*/}
       <section className="py-5 mb-5">
         <div className="container">
           <h2>Our Services</h2>
@@ -278,9 +284,20 @@ const Home = () => {
             <div className="col-lg-4 mb-4">
               <div className="card pricing-card border-warning">
                 <div className="card-body">
-                  <h3 className="mb-1">Planning</h3>
-                  <p className="mb-4">
-                    Our planning services craft tailored business roadmaps through market research and financial modeling, guiding startups and pivoting businesses for sustainable growth.                </p>
+                  <h3 className="mb-1">Static Website</h3>
+                  <h3 class="mb-1 text-warning">Rs 8000</h3>
+                  <p className="mll-1">
+                    Domain and Hosting</p>
+                    <p className="mb-4">
+                    SEO Friendly Website Setup</p>
+                    <p className="mb-4">
+                    Design Accordng to brand guidelines</p>
+                    <p className="mb-4">
+                    Google Analytics Integration</p>
+                    <p className="mb-4">
+                    Training</p>
+                    <p className="mll-4">
+                    Support for 2 months</p>
                   <Link to="/Planningservices" className="btn btn-outline-warning btn-rounded">
                     Know more
                   </Link>
@@ -291,9 +308,20 @@ const Home = () => {
             <div className="col-lg-4 mb-4">
               <div className="card pricing-card border-primary active">
                 <div className="card-body">
-                  <h3>Managing</h3>
-                  <p className="mb-4">
-                    Our launching services propel your business forward, offering expert guidance on locations, marketing, and funding.                 </p>
+                  <h3>Dynamic Website</h3>
+                  <h3 class="mb-1 text-warning">Rs 20000</h3>
+                  <p className="mll-1">
+                    Domain and Hosting</p>
+                    <p className="mb-4">
+                    SEO Friendly Website Setup</p>
+                    <p className="mb-4">
+                    Content Management Systems (CMS)</p>
+                    <p className="mb-4">
+                    Google Analytics Integration</p>
+                    <p className="mb-4">
+                    Training for Continuous updates</p>
+                    <p className="mll-4">
+                    Support for 3 months</p>
                   <Link to="/ManagingServices" className="btn btn-primary btn-rounded">
                     Know more
                   </Link>
@@ -303,9 +331,20 @@ const Home = () => {
             <div className="col-lg-4 mb-4">
               <div className="card pricing-card border-success">
                 <div className="card-body">
-                  <h3>Launching</h3>
-                  <p className="mb-4">
-                    Our managing services drive ongoing success for your business. From seamless operations to strategic growth planning                </p>
+                  <h3>E-Commerce</h3>
+                  <h3 class="mb-1 text-warning">Rs 25000</h3>
+                  <p className="mll-1">
+                    Domain and Hosting</p>
+                    <p className="mb-4">
+                    SEO Set up & Trainig</p>
+                    <p className="mb-4">
+                    Content Management Systems (CMS)</p>
+                    <p className="mb-4">
+                    Google Analytics Integration</p>
+                    <p className="mb-4">
+                    Training for Continuous updates</p>
+                    <p className="mll-4">
+                    Support for 6 months</p>
                   <Link to="/LaunchingServices" className="btn btn-outline-success btn-rounded">
                     Know more
                   </Link>
@@ -325,7 +364,7 @@ const Home = () => {
         </div>
 
       </section>
-      {/* <section className="py-5 mb-5">
+       <section className="py-5 mb-5">
       <div className="container">
         <h2>Satisfied Users</h2>
         <p className="text-muted mb-5">
@@ -353,8 +392,8 @@ const Home = () => {
                 className="avatar"
               />
               <div className="media-body">
-                <h6 className="mb-0">Amarachi Nkechi</h6>
-                <p>UX Designer</p>
+                <h6 className="mb-0">Naresh Singh</h6>
+                <p>Lucknow City College</p>
               </div>
             </div>
           </div>
@@ -378,8 +417,8 @@ const Home = () => {
                 className="avatar"
               />
               <div className="media-body">
-                <h6 className="mb-0">Margje Jutten</h6>
-                <p>Developer</p>
+                <h6 className="mb-0">Dr.Dharm</h6>
+                <p>Anmol Hospital</p>
               </div>
             </div>
           </div>
@@ -410,7 +449,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </section> */}
+    </section>
       <section className="py-5 mb-5">
         <div className="container">
           <h2>FAQ</h2>

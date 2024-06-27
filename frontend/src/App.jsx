@@ -35,14 +35,18 @@ import UserProfile from './components/UserProfile'
 // import Features from './components/Features'
 import Roadmap1 from './components/Roadmap1'
 import Forgotpassword from './components/Forgotpassword'
+import Website from './components/Website'
+
 // import Chat from './components/Chat'
 // import ExpertChat from './components/ExpertCaht'
 // import UserChat from './components/UserChat'
 
 
+
 const App = () => {
   return (
     <div>
+      
       <SnackbarProvider>
         <BrowserRouter>
           <AppProvider>
@@ -54,6 +58,8 @@ const App = () => {
               <Route path='/services' element={<Services />} />
               <Route path='/Signup' element={<Signup />} />
               <Route path='/Login' element={<Login />} />
+              <Route path="/Website" element={<Website/>} />
+           
               {/* <Route path='/Features' element={<Features/>} /> */}
              
 
